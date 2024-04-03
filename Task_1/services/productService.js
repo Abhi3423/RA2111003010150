@@ -6,11 +6,12 @@ exports.generateUniqueId = () => {
     return uuidv4();
 };
 
-exports.getCategoryProducts = async (company, categoryName, queryParams) => {
+exports.getCategoryProducts = async (company, categoryName, queryParams = {}) => {
     try {
+        
         const { top, minPrice, maxPrice } = queryParams;
         const url = `http://20.244.56.144/test/companies/${company}/categories/${categoryName}/products`;
-        const token = process.env.BEARER_TOKEN;
+        const token = "process.env.BEARER_TOKEN";
         const headers = {
             Authorization: `Bearer ${token}`
         };

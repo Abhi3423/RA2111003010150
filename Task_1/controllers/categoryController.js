@@ -2,7 +2,9 @@ const productService = require('../services/productService');
 
 exports.getCategoryProducts = async (req, res) => {
     try {
-        const products = await productService.getCategoryProducts(req.params.categoryName, req.query);
+        console.log(req.params)
+        const products = await productService.getCategoryProducts(req.params.company, req.params.categoryName, req.query={});
+        
         res.json(products);
     } catch (error) {
         console.error(error);
