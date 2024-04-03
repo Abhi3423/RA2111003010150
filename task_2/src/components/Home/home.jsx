@@ -5,6 +5,8 @@ import { useEffect } from 'react'
 import ProductCard from '../../UI/productcard'
 
 function Home() {
+
+  
   useEffect(() => {
 
     // async function getStartdata() {
