@@ -3,19 +3,20 @@ import React from "react";
 const Navbar = () => {
 
   return (
-    <header>
-      <div className="mx-auto rounded-b-xl flex justify-evenly h-24 max-w-screen-lg bg-[#D9D9D9] items-center gap-8 px-4 sm:px-6 lg:px-8 p-2">
-        <a className="block text-teal-600" href="#">
-          <div className="">
-           
-          </div>
-        </a>
-        <div className="w-0.5 h-12 bg-gray-500"></div>
-        <div className="block text-teal-600">
-        
-        </div>
+    <div className="bg-white z-20 w-full shadow-md" style={{
+      WebkitTransition: 'all .5s ease-in-out',
+      MozTransition: 'all .5s ease-in-out',
+      OTransition: 'all .5s ease-in-out',
+      transition: 'all .5s ease-in-out',
+      backgroundColor: '#fff',
+      boxShadow: '0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)',
+      padding: '8px 8px'
+    }}>
+      <div class="flex items-center justify-center text-xl text-red-500 p-2 w-full">
+        GO MART
       </div>
-    </header>
+
+    </div>
   );
 };
 
