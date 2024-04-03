@@ -27,7 +27,6 @@ function Home() {
     { name: 'Product 2', price: 30, rating: 4.2, discount: 15, availability: 'Out of Stock' },
     { name: 'Product 2', price: 30, rating: 4.2, discount: 15, availability: 'Out of Stock' },
     { name: 'Product 2', price: 30, rating: 4.2, discount: 15, availability: 'Out of Stock' },
-    // Add more product data here...
   ];
 
   return (
