@@ -12,7 +12,7 @@ const Navbar = () => {
       boxShadow: '0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)',
       padding: '8px 8px'
     }}>
-      <div class="flex items-center justify-center text-xl text-red-500 p-2 w-full">
+      <div class="flex font-bold items-center justify-center text-xl text-red-500 p-2 w-full">
         GO MART
       </div>
 
