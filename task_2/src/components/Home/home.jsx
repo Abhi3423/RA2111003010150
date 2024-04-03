@@ -6,11 +6,11 @@ import { useEffect } from 'react'
 function Home() {
   useEffect(() => {
 
-    async function getStartdata() {
-      let res = await axios.get(`${HOST}/categories`)
-      console.log(res?.data)
-    }
-    getStartdata()
+    // async function getStartdata() {
+    //   let res = await axios.get(`${HOST}/categories`)
+    //   console.log(res?.data)
+    // }
+    // getStartdata()
 
   }, [])
 
